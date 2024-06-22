@@ -1,0 +1,133 @@
+*
+{
+    margin : 0px ; 
+    padding : 0px ; 
+    border : border-box ;
+}
+
+body{
+    background-image : url("background.png");
+}
+
+/* heading section */
+
+.header
+{
+    margin: 100px 80px ;
+    color : silver ; 
+    display : flex ;
+    justify-content: center;
+    padding-top : 50px;
+    padding-bottom : 50px ; 
+    font-size: 70px;
+}
+.section1
+{
+    height : 500px ; 
+    margin : 130px 80px ; 
+    display : flex ;
+    justify-content : center ; 
+    background-color: silver;
+}
+
+/* register section */
+
+.left
+{
+    height :500px ; 
+    width : 50% ; 
+    border : 1px solid white ; 
+    
+}
+
+.right
+{
+    width : 50% ; 
+    border : 1px solid white ; 
+}
+
+.details 
+{
+    padding-left : 40px ; 
+    padding-top : 10px ;
+}
+
+.form p
+{
+    color : black ; 
+    margin-bottom : 0.4px ; 
+}
+
+.form input 
+{
+    background-color: white ;
+    margin-bottom : 10px ; 
+    width : 500px ; 
+    height : 23px ; 
+}
+
+#password
+{
+    margin-bottom : 30px ; 
+}
+
+.button
+{
+    height : 35px ; 
+    margin-right : 70px ; 
+    display : flex ; 
+    justify-content :right
+}
+
+.register
+{
+    margin-right : 35px ; 
+    display : flex ; 
+    justify-content : center ; 
+    align-items : center ; 
+    border : 1px solid white ;
+    background-color : orange ; 
+    width : 110px ;
+}
+
+.register a{
+    text-decoration : none ; 
+    color : black ; 
+    background-color: orange;
+}
+
+.Login
+{
+    display : flex ; 
+    justify-content : center ; 
+    align-items : center ; 
+    border : 1px solid white ; 
+    background-color : orange ; 
+    width : 110px ; 
+
+}
+
+.Login a{
+    text-decoration : none ; 
+    color : black ; 
+    background-color: orange;
+}
+
+.circle1
+{
+    z-index: -1;
+    height : 40px ; 
+    width : 100% ; 
+    background-color : rgb(6,20,62) ;  
+    margin-bottom : 10px ; 
+}
+
+.circle2
+{
+    z-index: -1;
+    height : 80px ; 
+    width : 100% ; 
+    background-color : rgb(6,20,62) ; 
+    margin-top : 10px ; 
+
+}

@@ -1,0 +1,174 @@
+*
+{
+    padding : 0px ; 
+    margin : 0px ; 
+    border : border-box ; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-image: url("background.png");
+}
+
+.nav-section
+{
+    height : 70px ; 
+    background-image :url("background.png")  ;
+    margin-bottom : 40px ; 
+}
+
+.nav-logo
+{ 
+    padding-top : 13px ; 
+    margin-left : 25% ; 
+}
+
+img.nav-logo
+{
+    height : 65px ; 
+    width : 700px ;
+}
+
+img.image
+{
+    height : 50px ; 
+    width : 130px ;
+}
+
+.section
+{
+    height : 2000px ; 
+    width : 96% ; 
+    display : flex ; 
+    background-image : url("background.png") ; 
+    border : 2px solid black ; 
+    padding : 30px 25px ;
+}
+
+.left
+{
+    width : 50% ; 
+    background-color : silver ; 
+    display : flex ; 
+    flex-direction: column;
+    justify-content : space-evenly ;
+    padding : 20px  ;
+}
+
+.dish
+{
+    height : 200px ;
+    width : 700px ;
+    background-color: silver ;
+    padding : 10px ; 
+    display :flex ; 
+    border : 1px solid black ;
+}
+
+.image
+{
+    width : 40% ; 
+    height : 100% ;
+    border : 2px solid black ; 
+}
+
+.content
+{
+    margin-left : 80px ;
+    margin-top : 20px ; 
+    display : block ;
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+button
+{
+    margin-top : 30px ; 
+    height : 40px ; 
+    width : 200px ; 
+    background-color : grey ; 
+    font-size: 25px;
+}
+
+.right
+{
+    width : 42.5%; 
+    padding : 40px ; 
+    position : fixed ;
+    top : 100px ;
+    left : 50% ; 
+    bottom : 300px ;
+}
+
+.outer
+{
+    height : 700px ; 
+    width : 100% ; 
+    padding : 20px ; 
+    background-color : silver ; 
+}
+
+.details1
+{
+    width : 100% ; 
+    height : 20px ; 
+    border-bottom : 3px solid grey ;
+    padding-bottom : 10px ;
+}
+
+.items
+{
+    height : 400px ;
+    margin-top : 20px ; 
+    margin-left : 20px ;
+    margin-right : 20px ;  
+    border : 2px solid black ; 
+    display : flex ; 
+    justify-content : space-evenly
+}
+
+.box
+{
+    padding-top : 30px ;
+    padding-right : 50px ;
+    padding-left : 50px ;
+}
+
+.box1
+{
+    border-right : 2px solid grey ;
+}
+
+.box2
+{ 
+    border-right : 2px solid grey ;
+
+}
+
+.box3
+{
+    border-left : 2px solid grey l 
+}
+
+.section4
+{
+    display : flex  ; 
+    justify-content: space-evenly;
+
+}
+
+
+
+   
+
+    
+
+
+
+
+
+
+
+
+

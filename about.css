@@ -1,0 +1,49 @@
+*
+{
+    padding : 0px ; 
+    margin : 0px ;
+    border : border-box; 
+    font-family: arial ;
+    background-image: url("background.png");
+}
+
+/* heading section */
+
+.header
+{
+    margin-top : 100px ; 
+    display : flex ; 
+    justify-content: center ;
+    color : silver ; 
+    font-size: 70px;
+}
+
+/* main content section */
+
+.content 
+{
+    margin-top : 50px ; 
+    height : 400px ; 
+    display : flex ; 
+    padding : 50px
+}
+
+.profile
+{
+    padding-left : 110px ;
+    padding-bottom : 40px  ; 
+    width : 45% ;
+}
+
+img
+{
+    height : 350px ; 
+    width : 400px ;
+}
+
+.fullcontent
+{
+    padding-left : 45px ;
+    color : white ; 
+}
+

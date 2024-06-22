@@ -1,0 +1,251 @@
+*
+{
+    padding : 0px ; 
+    margin : 0px ; 
+    border : border-box; 
+    font-family : arial ; 
+
+}
+
+body{
+    background-color: black ;
+}
+
+/* navigation bar */
+
+.nav-bar
+{
+    height : 70px ; 
+    display : flex ; 
+    justify-content : space-evenly ; 
+    align-items : center ;
+    background-color: silver ; 
+    margin-top : 18px ; 
+    margin-left : 12px ; 
+    margin-right : 12px ; 
+    margin-bottom : 18px ; 
+    border : solid 4px black ;
+    position:fixed;
+    top : 10px ;
+    right : 0px ; 
+    left : 0px ; 
+}
+
+.nav-logo
+{
+    width : 50% ; 
+}
+
+.login
+{
+    height : 30px ; 
+    width:  100px ; 
+    text-align : center ; 
+    display : flex ; 
+    justify-content: center;
+    align-items: center ;
+    text-decoration: none;
+    border : 2px solid transparent ; 
+    background-color :rgb(41, 40, 40)
+}
+
+.login a{
+    text-decoration : none ; 
+    color : silver ; 
+}
+
+/* middle section */
+
+.section1
+{
+    margin-top:80px ;
+    height : 600px ; 
+    margin-left : 20px ; 
+    margin-right : 20px ; 
+    border : solid 4px rgb(155, 151, 151) ; 
+}
+
+.image img
+{
+    height : 600px ; width : 100% ; 
+}
+
+/* menu section */
+
+.section2
+{
+    margin-left : 12px ; 
+    margin-right : 12px ; 
+    margin-top :25px ; 
+    display : flex ; 
+    /*justify-content : center ; */
+    align-items : center ; 
+    padding : 20px ; 
+    background-color: silver;
+}
+
+.order
+{
+    margin-left : 1100px; 
+    display: flex;
+    align-items : center ; 
+    justify-content: center;
+    height : 50px ; 
+    width : 200px ; 
+    background-color : red ; 
+}
+
+.order a
+{
+    color: white ; 
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+/* mwnu */
+
+.section3
+{
+    margin-left : 10px ; 
+    margin-right : 0px ; 
+    margin-top : 50px ; 
+    display : flex ; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img
+{
+    margin-left : 25px; 
+    width : 20% ; 
+    height : 300px ; 
+    margin-bottom :30px ; 
+    padding : 4px ; 
+    border : 2px solid black ; 
+    
+}
+
+.img1 
+{
+    height : 245px ; 
+    border : 2px solid silver; 
+}
+
+.img1 img
+{
+    height : 245px ;
+    width : 100% ; 
+}
+
+.heading
+{
+    margin-top : 12px ; 
+    color : silver ; 
+}
+
+/* reviews section */
+
+.reviews
+{
+    margin-top : 15px ; 
+    margin-right : 15px ; 
+    margin-left : 22px ; 
+    font-weight : bold ;
+    font-size: larger;
+    padding : 30px ; 
+    background-color: silver;
+    height : 20px ; 
+}
+
+.reviews1
+{
+    height : 500px ; 
+    padding-left : 34px ; 
+    padding-right : 26px ; 
+    padding-top : 20px ; 
+    padding-bottom : 20px ; 
+}
+
+.customer
+{
+    height : 245px ; 
+    background-color : silver ;
+    margin-bottom: 10px ; ;
+    padding : 5px ; 
+    
+}
+
+
+.customername
+{
+    display : flex ; 
+    height : 50px ; 
+    background-color: rgb(248, 251, 251);
+    margin-top : 10px ; 
+    padding-left : 70px ; 
+    align-items : center ; 
+    font-size: larger;
+    font-weight: bold;
+}
+
+.customerreview
+{
+    display : flex ;
+    height : 110px ; 
+    background-color: rgb(245, 245, 248);
+    margin-top : 10px ; 
+    padding-left: 70px ; 
+    padding-top : 50px ; 
+    text-transform : uppercase ;
+    
+    
+}
+
+/* footer section */
+
+.footer
+{
+    margin-top : 50px ; 
+    height : 130px ; 
+    background-color : black ; 
+    padding-left : 20% ; 
+    padding-right : 20% ; 
+    display : flex ; 
+    justify-content : center ; 
+    align-items : center ; 
+}
+
+.footer ul
+{
+    display:flex ;
+    list-style-type: none; 
+}
+
+.footer ul li{
+    color: white ; 
+    margin-left : 2px ;
+}
+
+.locationdropdown
+{
+    display : none ; 
+    z-index: 1;
+    position : absolute ; 
+    background-color: aliceblue;
+    width : 170px ; 
+}
+
+.locationdropdown ul li
+{
+    background-color : rgb(21, 11, 162);  
+    color : white;
+    margin-bottom: 1.5px ; 
+    border : 2px solid black ;
+    text-align: center;
+    height : 20px ; 
+    list-style-type: none;
+}
+
+
+
